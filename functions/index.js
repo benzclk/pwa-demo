@@ -3,7 +3,7 @@ var admin = require('firebase-admin');
 var cors = require('cors')({origin: true});
 var webpush = require('web-push');
 
-
+// Service keys
 var serviceAccount = require("./keys.json");
 
 admin.initializeApp({
